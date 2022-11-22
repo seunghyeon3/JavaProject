@@ -1,0 +1,9 @@
+package com.yedam.condition;
+
+public class Exam02 {
+	public static void main(String[] args) {
+		
+		//학점 계산하기
+		
+	}
+}

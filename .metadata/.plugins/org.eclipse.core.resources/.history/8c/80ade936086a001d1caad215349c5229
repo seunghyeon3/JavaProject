@@ -1,0 +1,30 @@
+package com.yedam.condition;
+
+public class Exam02 {
+	public static void main(String[] args) {
+		
+		//학점 계산하기
+		//swtich문으로 변경
+		//사용자가 입력한 점수를 토대로 학점을 출력
+		//90 이상은 A
+		//90~80 B
+		//80~70 C
+		//70~60 D
+		//그 외는 F
+		if (score >= 90) {
+			pass = "A";
+		} else if (score >= 80) {
+			pass = "B";
+		} else if (score >= 70) {
+			pass = "C";
+		} else {
+			pass = "D";
+		}
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.yedam.variable;
+
+public class Exam03 {
+	public static void main(String[] args) {
+		
+		char cVar = 'A'+1;
+		int iVar = cVar;
+		System.out.println(iVar);
+		double dVar = iVar;
+		System.out.println(dVar);
+	}
+}

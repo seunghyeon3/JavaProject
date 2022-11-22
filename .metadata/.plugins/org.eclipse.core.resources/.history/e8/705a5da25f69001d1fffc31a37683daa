@@ -1,0 +1,52 @@
+package com.yedam.variable;
+
+public class Exam04 {
+	public static void main(String[] args) {
+		byte bVal = 10;
+		byte bVal2 = 20;
+		//int 아래 데이터 타입일 경우, 연산하게 되면
+		//int로 결과값이 나옴.
+		int iResult = bVal + bVal2;
+		System.out.println("Byte간 연산 결과(int) : " + iResult);
+		
+		char cVal = 'A';
+		char cVal2 = 10;
+		iResult = cVal+cVal2;
+		System.out.println("Char간 연산 결과(int) : " + iResult);
+		System.out.println("Char간 연산 결과(문자) : " + (char)iResult);
+		
+		int iVal2 = 30;
+		double dVal3 = iVal2/4.0;
+		System.out.println("int/실수 : " + dVal3);
+		
+		int x = 20;
+		int y = 9;
+		double result = (double)x/y;
+		System.out.println("double 자동 변환 : " + result);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,39 @@
+package com.yedam.variable;
+
+public class Exam01 {
+	
+	public static void main(String[] args) {
+		int value;
+		value = 10;
+		System.out.println(value);
+		
+		int value2 = 20;
+		
+		int value3;
+		//int result = value3 + 10;
+		
+		//변수 값 복사
+		int x = 3;
+		int y = 5;
+		int temp;
+		
+		//데이터 변경 전
+		System.out.println("x : " + x + ", " + "y : "+ y);
+		
+		temp = x;
+		x = y;
+		y = temp;
+		
+		//데이터 변경 후
+		System.out.println("x : " + x + ", " + "y : "+ y);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

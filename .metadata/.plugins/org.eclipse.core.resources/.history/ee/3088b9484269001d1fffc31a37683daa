@@ -1,0 +1,11 @@
+package com.yedam.variable;
+
+public class Exam01 {
+	static int value2;
+	public static void main(String[] args) {
+		int value;
+		System.out.println(value);
+		value = 10;
+		System.out.println(value);
+	}
+}

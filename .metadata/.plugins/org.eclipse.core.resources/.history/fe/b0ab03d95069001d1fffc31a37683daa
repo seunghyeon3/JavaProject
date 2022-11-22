@@ -1,0 +1,28 @@
+package com.yedam.variable;
+
+public class Exam03 {
+	public static void main(String[] args) {
+
+		//자동 타입 변환
+		char cVar = 'A'+1;
+		int iVar = cVar;
+		System.out.println(iVar);
+		double dVar = iVar;
+		System.out.println(dVar);
+		
+		//강제 타입 변환
+		iVar = (int)dVar;
+		System.out.println(iVar);
+		cVar = (char)iVar;
+		System.out.println(cVar);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
